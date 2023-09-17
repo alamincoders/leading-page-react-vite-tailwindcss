@@ -5,10 +5,12 @@ const Hero = () => {
     <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover bg-center bg-no-repeat min-h-screen relative">
       <div className="text-center">
         <div className=" absolute w-full font-poppins bg-black/40 h-full">
-          <div className="absolute -bottom-28 text-white/50 flex items-center justify-center w-full h-full">
+          <div className="absolute bottom-0 text-white/50 flex items-center justify-center w-full h-full">
             <div>
-              <h1 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-none ">THE ARTIST</h1>
-              <h1 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-none">CLOUD AGENCY</h1>
+              <h2 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-[1.25] ">THE ARTIST</h2>
+              <h2 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-[1.25]">
+                CLOUD AGENCY
+              </h2>
             </div>
           </div>
         </div>
