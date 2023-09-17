@@ -23,13 +23,13 @@ const About = () => {
                 survived not only five centuries, but also the leap into electronic typesetting, remaining
               </p>
             </div>
-            <div className="">
-              <img src={aboutImg2} alt="" />
+            <div className=" w-full h-full">
+              <img className="w-full h-full object-cover object-top" src={aboutImg2} alt="" />
             </div>
           </div>{" "}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-            <div className="">
-              <img src={aboutImg} alt="" />
+            <div className="w-full h-full">
+              <img className="w-full h-full object-cover object-top" src={aboutImg} alt="" />
             </div>
             <div className="">
               <p className="text-justify text-zinc-500 text-3xl ">
