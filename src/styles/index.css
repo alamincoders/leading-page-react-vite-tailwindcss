@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Outline_PERSONAL";
+  src: url("../assets/fonts/MADE\ TOMMY\ Black\ Outline_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Black_PERSONAL";
+  src: url("../assets/fonts/MADE\ TOMMY\ Black_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Outline_PERSONAL_Bold";
+  src: url("../assets/fonts/MADE\ TOMMY\ Bold\ Outline_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Outline_PERSONAL_Extra_Bold";
+  src: url("../assets/fonts/MADE\ TOMMY\ ExtraBold\ Outline_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Outline_PERSONAL_Light";
+  src: url("../assets/fonts/MADE\ TOMMY\ Light\ Outline_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Light_PERSONAL";
+  src: url("../assets/fonts/MADE\ TOMMY\ Light_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Medium_Outline_PERSONAL";
+  src: url("../assets/fonts/MADE\ TOMMY\ Medium\ Outline_PERSONAL\ USE.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Black_PERSONAL";
+  box-sizing: border-box;
+}
+
+.container_fluid {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Extra small screens (576px and below) */
+@media (min-width: 576px) {
+  .container_fluid {
+    max-width: 96%;
+  }
+}
+
+/* Small screens (768px and below) */
+@media (min-width: 768px) {
+  .container_fluid {
+    max-width: 94%;
+  }
+}
+
+/* Medium screens (992px and below) */
+@media (min-width: 992px) {
+  .container_fluid {
+    max-width: 94%;
+  }
+}
+
+/* Large screens (1200px and below) */
+@media (min-width: 1200px) {
+  .container_fluid {
+    max-width: 1140px;
+  }
+}
+
+/* Extra large screens (1400px and below) */
+@media (min-width: 1400px) {
+  .container_fluid {
+    max-width: 1300px;
+  }
+}
