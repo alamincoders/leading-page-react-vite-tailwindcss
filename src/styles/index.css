@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: "Outline_PERSONAL";
+  src: url("../assets/fonts/MADE\ TOMMY\ Black\ Outline_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Black_PERSONAL";
+  src: url("../assets/fonts/MADE\ TOMMY\ Black_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Outline_PERSONAL_Bold";
+  src: url("../assets/fonts/MADE\ TOMMY\ Bold\ Outline_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Outline_PERSONAL_Extra_Bold";
+  src: url("../assets/fonts/MADE\ TOMMY\ ExtraBold\ Outline_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Outline_PERSONAL_Light";
+  src: url("../assets/fonts/MADE\ TOMMY\ Light\ Outline_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Light_PERSONAL";
+  src: url("../assets/fonts/MADE\ TOMMY\ Light_PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "Medium_Outline_PERSONAL";
+  src: url("../assets/fonts/MADE\ TOMMY\ Medium\ Outline_PERSONAL\ USE.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Black_PERSONAL";
+  box-sizing: border-box;
+}
