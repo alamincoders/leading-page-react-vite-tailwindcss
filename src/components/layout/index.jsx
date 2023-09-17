@@ -1,12 +1,14 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import { Outlet } from "react-router-dom";
+import Footer from "../shared/Footer";
+import Navbar from "../shared/Navbar";
 
 const Layout = () => {
   return (
     <React.Fragment>
       <header>
-        <nav>Navbar</nav>
+        <Navbar />
       </header>
 
       <main>
@@ -14,7 +16,7 @@ const Layout = () => {
       </main>
 
       <footer>
-        <section>Footer</section>
+        <Footer />
       </footer>
     </React.Fragment>
   );
