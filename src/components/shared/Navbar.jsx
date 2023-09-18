@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/nav_logo.png";
+import { useState } from "react";
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="text-white pt-8">
       <div className="container_fluid">
@@ -73,11 +75,30 @@ const Navbar = () => {
             </li>
           </div>
           <div className="block lg:hidden">
-            <button className="cursor-pointer">
+            <button onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
                 <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 17h14M5 12h14M5 7h14" />
               </svg>
             </button>
+            {isOpen && (
+              <div>
+                <ul className="bg-white/60 absolute top-24 sm:top-28 right-0 sm:right-10 rounded-lg shadow-3xl w-[250px] h-60 text-black">
+                  <div className="flex pt-12 justify-center h-full">
+                    <div className=" space-y-6 text-xl">
+                      <li className="hover:text-sky-500">
+                        <Link to="/">Home</Link>
+                      </li>{" "}
+                      <li className="hover:text-sky-500">
+                        <Link to="/">About</Link>
+                      </li>{" "}
+                      <li className="hover:text-sky-500">
+                        <Link to="/">Contact</Link>
+                      </li>{" "}
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            )}
           </div>
         </ul>
       </div>
