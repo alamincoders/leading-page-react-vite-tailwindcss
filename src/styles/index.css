@@ -52,6 +52,11 @@ body {
   padding: 0 15px;
 }
 
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
 /* Extra small screens (576px and below) */
 @media (min-width: 576px) {
   .container_fluid {
