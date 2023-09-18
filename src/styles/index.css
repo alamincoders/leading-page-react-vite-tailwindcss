@@ -43,6 +43,7 @@ html {
 body {
   font-family: "Black_PERSONAL";
   box-sizing: border-box;
+  position: relative;
 }
 
 .container_fluid {
