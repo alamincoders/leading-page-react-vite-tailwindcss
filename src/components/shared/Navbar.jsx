@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/images/nav_logo.png";
 const Navbar = () => {
   return (
@@ -5,8 +6,11 @@ const Navbar = () => {
       <div className="container_fluid">
         <ul className="flex items-center justify-between">
           <div>
-            <li className="">
-              <img src={logo} alt="" />
+            <li className="w-96">
+              <Link to="/">
+                {" "}
+                <img src={logo} alt="" />
+              </Link>
             </li>
           </div>
           <div className="flex items-center space-x-12 text-lg uppercase tracking-widest">
