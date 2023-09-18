@@ -73,10 +73,11 @@ const Gallery = () => {
           <h2 className="text-zinc-400 text-2xl md:text-3xl uppercase font-poppins">From Our Instagram</h2>
           <h2 className="text-zinc-400 text-2xl md:text-3xl font-poppins">@instausername</h2>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px]">
           {imagesGallery.map(({ ImageSrc, id, react, comment }) => (
             <div key={id} className="w-full h-[400px] group relative cursor-pointer">
-              <img loading="lazy" src={ImageSrc} alt="" className="w-full h-full object-cover object-center" />
+              <img src={ImageSrc} alt="" className="w-full h-full object-cover object-center" />
               <div className="w-full h-full absolute top-0 left-0 bg-black/60 hidden group-hover:flex items-center justify-center gap-x-4 text-white/80 duration-300 transition-all ease-in-out">
                 <div className="text-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">

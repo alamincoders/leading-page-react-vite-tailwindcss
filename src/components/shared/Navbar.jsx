@@ -6,14 +6,14 @@ const Navbar = () => {
       <div className="container_fluid">
         <ul className="flex items-center justify-between">
           <div>
-            <li className="w-96">
+            <li className=" w-60 sm:w-96">
               <Link to="/">
                 {" "}
                 <img src={logo} alt="" />
               </Link>
             </li>
           </div>
-          <div className="flex items-center space-x-12 text-lg uppercase tracking-widest">
+          <div className="hidden lg:flex items-center space-x-12 text-lg uppercase tracking-widest">
             <li>
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512" className="inline-block -mt-2 mr-3">
@@ -52,7 +52,7 @@ const Navbar = () => {
               <span>Contact</span>
             </li>
           </div>
-          <div className="flex items-center justify-center gap-x-6">
+          <div className="hidden lg:flex items-center justify-center gap-x-6">
             <li>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                 <path
@@ -71,6 +71,13 @@ const Navbar = () => {
                 />
               </svg>
             </li>
+          </div>
+          <div className="block lg:hidden">
+            <button className="cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 17h14M5 12h14M5 7h14" />
+              </svg>
+            </button>
           </div>
         </ul>
       </div>

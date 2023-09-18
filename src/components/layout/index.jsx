@@ -7,7 +7,7 @@ import Navbar from "../shared/Navbar";
 const Layout = () => {
   return (
     <React.Fragment>
-      <header className="absolute top-0 left-0 w-full h-full z-50 hidden lg:block">
+      <header className="absolute top-0 left-0 w-full h-full z-50">
         <Navbar />
       </header>
 
