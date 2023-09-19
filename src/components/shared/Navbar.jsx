@@ -75,21 +75,38 @@ const Navbar = () => {
             </li>
           </div>
           <div className="block lg:hidden">
-            <button onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">
-              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
-                <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 17h14M5 12h14M5 7h14" />
-              </svg>
-            </button>
+            {!isOpen ? (
+              <button onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 17h14M5 12h14M5 7h14" />
+                </svg>
+              </button>
+            ) : (
+              <button onClick={() => setIsOpen(false)} className="cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 512 512">
+                  <path
+                    fill="currentColor"
+                    d="m289.94 256l95-95A24 24 0 0 0 351 127l-95 95l-95-95a24 24 0 0 0-34 34l95 95l-95 95a24 24 0 1 0 34 34l95-95l95 95a24 24 0 0 0 34-34Z"
+                  />
+                </svg>
+              </button>
+            )}
             {isOpen && (
               <div>
-                <ul className="bg-white/60 absolute top-24 sm:top-28 right-0 sm:right-10 rounded-lg shadow-3xl w-[250px] h-60 text-black">
-                  <div className="flex pt-12 justify-center h-full">
+                <ul
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="bg-white absolute top-24 sm:top-28 right-4 sm:right-10 rounded-lg shadow-3xl w-[250px] h-96 text-black"
+                >
+                  <div className="flex pt-12 justify-center w-full h-full">
                     <div className=" space-y-6 text-xl">
                       <li className="hover:text-sky-500">
                         <Link to="/">Home</Link>
                       </li>{" "}
                       <li className="hover:text-sky-500">
                         <Link to="/">About</Link>
+                      </li>{" "}
+                      <li className="hover:text-sky-500">
+                        <Link to="/">Blogs</Link>
                       </li>{" "}
                       <li className="hover:text-sky-500">
                         <Link to="/">Contact</Link>

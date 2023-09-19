@@ -102,3 +102,29 @@ li {
   content: "";
   display: none;
 }
+
+.hero_slide > .slick-active {
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  border-radius: 50%;
+}
+.slick-active {
+  width: 22px;
+  height: 22px;
+  background: #bbb;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0 !important;
+}
+
+.slick-dots li button:before {
+  font-size: 16px !important;
+}
+.slick-dots .hero_slide li button:before {
+  font-size: 16px !important;
+  color: white !important;
+  opacity: 1 !important ;
+}

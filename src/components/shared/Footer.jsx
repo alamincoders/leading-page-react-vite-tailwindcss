@@ -7,10 +7,10 @@ const Footer = () => {
       <div className="container_fluid">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 lg:gap-32 mb-14 lg:mb-32">
           <div className="lg:col-span-2 space-y-4">
-            <div>
+            <div className="sm:w-96 h-20">
               <img className="w-full h-full" src={logo} alt="" />
             </div>
-            <p className="flex items-center text-base lg:text-2xl gap-x-4 ">
+            <p className="flex items-center text-base xl:text-2xl gap-x-4 ">
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
                   <path
@@ -21,7 +21,7 @@ const Footer = () => {
               </span>
               <span>12345 your address here, AB 12345</span>
             </p>
-            <p className="flex items-center text-base lg:text-2xl gap-x-4 ">
+            <p className="flex items-center text-base xl:text-2xl gap-x-4 ">
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 36 36">
                   <path
@@ -34,7 +34,7 @@ const Footer = () => {
               </span>
               <span>info@youremail.com</span>
             </p>
-            <p className="flex items-center text-base lg:text-2xl gap-x-4 ">
+            <p className="flex items-center text-base xl:text-2xl gap-x-4 ">
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                   <g fill="none">
@@ -88,7 +88,7 @@ const Footer = () => {
             </div>
 
             <div className="mt-8 py-5 px-8 bg-white font-poppins rounded-lg">
-              <div className="flex justify-between lg:items-center flex-col lg:flex-row gap-6 lg:gap-0">
+              <div className="flex justify-between lg:items-center flex-col xl:flex-row gap-6 xl:gap-0">
                 <div className="text-lg font-bold text-black">
                   LOREM IPSUM <br /> DOLOR SIT AMET
                 </div>
