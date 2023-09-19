@@ -1,35 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
-  font-family: "Outline_PERSONAL";
-  src: url("../assets/fonts/MADE\ TOMMY\ Black\ Outline_PERSONAL\ USE.otf");
+  font-family: "Tommy_light";
+  src: url("../assets/fonts/RBOFOF-MADETOMMY-Light.ttf");
 }
 @font-face {
-  font-family: "Black_PERSONAL";
-  src: url("../assets/fonts/MADE\ TOMMY\ Black_PERSONAL\ USE.otf");
+  font-family: "Tommy";
+  src: url("../assets/fonts/GNDRQB-MADETOMMY.ttf");
 }
 @font-face {
-  font-family: "Outline_PERSONAL_Bold";
-  src: url("../assets/fonts/MADE\ TOMMY\ Bold\ Outline_PERSONAL\ USE.otf");
-}
-@font-face {
-  font-family: "Outline_PERSONAL_Extra_Bold";
-  src: url("../assets/fonts/MADE\ TOMMY\ ExtraBold\ Outline_PERSONAL\ USE.otf");
-}
-@font-face {
-  font-family: "Outline_PERSONAL_Light";
-  src: url("../assets/fonts/MADE\ TOMMY\ Light\ Outline_PERSONAL\ USE.otf");
-}
-@font-face {
-  font-family: "Light_PERSONAL";
-  src: url("../assets/fonts/MADE\ TOMMY\ Light_PERSONAL\ USE.otf");
-}
-@font-face {
-  font-family: "Medium_Outline_PERSONAL";
-  src: url("../assets/fonts/MADE\ TOMMY\ Medium\ Outline_PERSONAL\ USE.otf");
+  font-family: "Tommy_bold";
+  src: url("../assets/fonts/SCJQCD-MADETOMMY-Bold.ttf");
 }
 
 * {
@@ -41,9 +24,15 @@ html {
 }
 
 body {
-  font-family: "Black_PERSONAL";
+  font-family: "Tommy_light";
   box-sizing: border-box;
   position: relative;
+}
+
+h1,
+h2 {
+  font-family: "Tommy_bold" !important;
+  font-weight: bold !important;
 }
 
 .container_fluid {

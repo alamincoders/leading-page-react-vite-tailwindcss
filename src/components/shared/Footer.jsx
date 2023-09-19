@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
           <div className="lg:col-span-3 text-white">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="uppercase font-bold text-2xl font-poppins">Lorem Ipsum</div>
+              <h2 className="uppercase font-bold text-2xl ">Lorem Ipsum</h2>
               <div className="flex flex-col text-white/80 lg:text-right">
                 <Link className="text-lg" to="/">
                   Lorem Ipsum
@@ -87,13 +87,13 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="mt-8 py-5 px-8 bg-white font-poppins rounded-lg">
+            <div className="mt-8 py-5 px-8 bg-white  rounded-lg">
               <div className="flex justify-between lg:items-center flex-col xl:flex-row gap-6 xl:gap-0">
-                <div className="text-lg font-bold text-black">
+                <h2 className="text-lg font-bold text-black">
                   LOREM IPSUM <br /> DOLOR SIT AMET
-                </div>
-                <div className="bg-zinc-400 text-white rounded-lg py-2 px-5 text-base">Lorem ipsum dolor sit amet</div>
-                <button className="rounded-3xl text-white bg-[#101010] py-2 px-5">SHOP NOW</button>
+                </h2>
+                <h2 className="bg-zinc-400 text-white rounded-lg py-2 px-5 text-base">Lorem ipsum dolor sit amet</h2>
+                <button className="rounded-3xl text-white bg-[#101010] py-2 px-5 font-tommy_bold font-bold">SHOP NOW</button>
               </div>
             </div>
           </div>

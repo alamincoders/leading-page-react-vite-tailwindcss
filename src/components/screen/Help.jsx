@@ -6,7 +6,7 @@ const Help = () => {
     <section className="">
       <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover bg-center bg-no-repeat h-[700px] md:h-[900px] relative">
         <div className="">
-          <div className=" absolute w-full font-poppins bg-black/60 h-full ">
+          <div className=" absolute w-full  bg-black/60 h-full ">
             <div className="absolute bottom-0 text-white w-full h-full ">
               <div className="container_fluid py-24 lg:py-44 flex items-center justify-center lg:block h-full">
                 <div>
