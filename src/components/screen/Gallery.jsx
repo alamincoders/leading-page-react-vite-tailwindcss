@@ -108,13 +108,23 @@ const Gallery = () => {
 export default Gallery;
 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return <div className={className} style={{ ...style, display: "block", background: "red", marginRight: "-50px" }} onClick={onClick} />;
+  const { className, onClick } = props;
+  return (
+    <button className={`${className} mr-0 w-20 h-20`} onClick={onClick}>
+      <svg className="text-zinc-500 inline-block" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.3" d="m10 17l5-5l-5-5" />
+      </svg>
+    </button>
+  );
 }
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
-    <div className={className} style={{ ...style, display: "block", background: "green", marginLeft: "-50px", zIndex: "10" }} onClick={onClick} />
+    <button className={`${className} -ml-10 w-20 h-20`} onClick={onClick}>
+      <svg className="text-zinc-500 inline-block" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+        <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.3" d="m14 7l-5 5l5 5" />
+      </svg>
+    </button>
   );
 }
