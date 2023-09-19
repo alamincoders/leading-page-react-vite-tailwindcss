@@ -98,7 +98,7 @@ li {
   background: #fff;
   border-radius: 50%;
 }
-.slick-active {
+.gallery_slide > .slick-active {
   width: 22px;
   height: 22px;
   background: #444;
