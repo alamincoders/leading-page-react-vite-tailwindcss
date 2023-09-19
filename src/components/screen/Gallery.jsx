@@ -25,7 +25,7 @@ const Gallery = () => {
           top: "50px",
         }}
       >
-        <ul className="flex justify-center items-center" style={{ margin: "0px" }}>
+        <ul className="gallery_slide flex justify-center items-center" style={{ margin: "0px" }}>
           {" "}
           {dots}{" "}
         </ul>
