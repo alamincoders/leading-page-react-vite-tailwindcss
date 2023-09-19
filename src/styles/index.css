@@ -91,3 +91,14 @@ li {
     max-width: 1300px;
   }
 }
+
+/* ================== */
+
+.slick-prev:before {
+  content: "";
+  display: none;
+}
+.slick-next:before {
+  content: "";
+  display: none;
+}
