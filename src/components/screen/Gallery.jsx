@@ -19,8 +19,8 @@ const Gallery = () => {
       <div
         style={{
           backgroundColor: "transparent",
-          borderRadius: "10px",
-          padding: "10px",
+          borderRadius: "0",
+          padding: "0",
           position: "relative",
           top: "50px",
         }}
