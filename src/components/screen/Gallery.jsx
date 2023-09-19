@@ -163,7 +163,7 @@ export default Gallery;
 function SampleNextArrow(props) {
   const { className, onClick } = props;
   return (
-    <button className={`${className} !hidden w-0 h-0 mr-0 lg:!inline-block lg:w-20 lg:h-20`} onClick={onClick}>
+    <button className={`${className} !hidden w-0 h-0 mr-0 xl:!inline-block xl:w-20 xl:h-20`} onClick={onClick}>
       <svg className="text-zinc-500 inline-block" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
         <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.3" d="m10 17l5-5l-5-5" />
       </svg>
@@ -174,7 +174,7 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
   const { className, onClick } = props;
   return (
-    <button className={`${className} !hidden w-0 h-0 -ml-10 lg:!inline-block lg:w-20 lg:h-20`} onClick={onClick}>
+    <button className={`${className} !hidden w-0 h-0 -ml-10 xl:!inline-block xl:w-20 xl:h-20`} onClick={onClick}>
       <svg className="text-zinc-500 inline-block" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
         <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.3" d="m14 7l-5 5l5 5" />
       </svg>
