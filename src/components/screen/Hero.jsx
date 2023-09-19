@@ -27,7 +27,7 @@ const Hero = () => {
           top: "-100px",
         }}
       >
-        <ul className="hero_slide" style={{ margin: "0px" }}>
+        <ul className="hero_slide flex items-center justify-center" style={{ margin: "0px" }}>
           {dots}{" "}
         </ul>
       </div>

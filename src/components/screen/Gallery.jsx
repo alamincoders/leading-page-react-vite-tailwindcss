@@ -25,7 +25,10 @@ const Gallery = () => {
           top: "50px",
         }}
       >
-        <ul style={{ margin: "0px" }}> {dots} </ul>
+        <ul className="flex justify-center items-center" style={{ margin: "0px" }}>
+          {" "}
+          {dots}{" "}
+        </ul>
       </div>
     ),
   };
