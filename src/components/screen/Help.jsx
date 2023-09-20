@@ -3,7 +3,7 @@ import bg2 from "../../assets/images/Asset 3-50.jpg";
 
 const Help = () => {
   return (
-    <section className="">
+    <section id="contact" className="">
       <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover bg-center bg-no-repeat h-[700px] md:h-[900px] relative">
         <div className="">
           <div className=" absolute w-full  bg-black/60 h-full ">
