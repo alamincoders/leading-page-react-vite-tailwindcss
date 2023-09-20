@@ -2,9 +2,9 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import bg from "../../assets/images/17.jpg";
+import bg from "../../assets/images/hero-slider.jpg";
 import bg2 from "../../assets/images/21.jpg";
-import bg3 from "../../assets/images/23.jpg";
+import bg3 from "../../assets/images/28.jpg";
 
 const Hero = () => {
   const settings = {
@@ -38,17 +38,16 @@ const Hero = () => {
       <div>
         <Slider {...settings}>
           <div>
-            <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover bg-top bg-no-repeat min-h-screen relative">
+            <div
+              style={{ backgroundImage: `url(${bg})` }}
+              className="bg-cover bg-top bg-no-repeat h-[600px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[1200px] relative"
+            >
               <div className="text-center">
                 <div className=" ">
-                  <div className=" flex items-center justify-center h-screen bg-black/30 text-white/60">
-                    <div className="">
-                      <h2 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-[1.25] ">
-                        THE ARTIST
-                      </h2>
-                      <h2 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-[1.25]">
-                        CLOUD AGENCY
-                      </h2>
+                  <div className="flex items-center justify-center h-[600px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[1200px] bg-black/40 text-white/60">
+                    <div className="mt-28 font-extrabold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px] leading-[1.25] font-tommy_bold">
+                      <h2 className="">THE ARTIST</h2>
+                      <h2 className="">CLOUD AGENCY</h2>
                     </div>
                   </div>
                 </div>
@@ -56,17 +55,16 @@ const Hero = () => {
             </div>
           </div>{" "}
           <div>
-            <div style={{ backgroundImage: `url(${bg2})` }} className="bg-cover bg-top bg-no-repeat min-h-screen relative">
+            <div
+              style={{ backgroundImage: `url(${bg2})` }}
+              className="bg-cover bg-top bg-no-repeat h-[600px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[1200px] relative"
+            >
               <div className="text-center">
                 <div className=" ">
-                  <div className=" flex items-center justify-center h-screen bg-black/30 text-white/60">
-                    <div>
-                      <h2 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-[1.25] ">
-                        THE ARTIST
-                      </h2>
-                      <h2 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-[1.25]">
-                        CLOUD AGENCY
-                      </h2>
+                  <div className=" flex items-center justify-center h-[600px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[1200px] bg-black/40 text-white/60">
+                    <div className="mt-28 font-extrabold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px] leading-[1.25] font-tommy_bold">
+                      <h2 className=" ">THE ARTIST</h2>
+                      <h2 className="">CLOUD AGENCY</h2>
                     </div>
                   </div>
                 </div>
@@ -74,17 +72,16 @@ const Hero = () => {
             </div>
           </div>{" "}
           <div>
-            <div style={{ backgroundImage: `url(${bg3})` }} className="bg-cover bg-top bg-no-repeat min-h-screen relative">
+            <div
+              style={{ backgroundImage: `url(${bg3})` }}
+              className="bg-cover bg-top bg-no-repeat h-[600px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[1200px] relative"
+            >
               <div className="text-center">
                 <div className=" ">
-                  <div className=" flex items-center justify-center h-screen bg-black/30 text-white/60">
-                    <div>
-                      <h2 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-[1.25] ">
-                        THE ARTIST
-                      </h2>
-                      <h2 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-[1.25]">
-                        CLOUD AGENCY
-                      </h2>
+                  <div className=" flex items-center justify-center h-[600px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[1200px] bg-black/40 text-white/60">
+                    <div className="mt-28 font-extrabold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px] leading-[1.25] font-tommy_bold">
+                      <h2 className=" ">THE ARTIST</h2>
+                      <h2 className="">CLOUD AGENCY</h2>
                     </div>
                   </div>
                 </div>

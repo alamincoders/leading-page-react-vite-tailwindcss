@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/footer_logo.png";
+import logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
@@ -10,9 +10,9 @@ const Footer = () => {
             <div className="sm:w-96 h-20">
               <img className="w-full h-full" src={logo} alt="" />
             </div>
-            <p className="flex items-center text-base xl:text-2xl gap-x-4 ">
+            <p className="flex items-center text-base xl:text-[20px] gap-x-4">
               <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
                   <path
                     fill="currentColor"
                     d="M256 32C167.67 32 96 96.51 96 176c0 128 160 304 160 304s160-176 160-304c0-79.49-71.67-144-160-144Zm0 224a64 64 0 1 1 64-64a64.07 64.07 0 0 1-64 64Z"
@@ -21,9 +21,9 @@ const Footer = () => {
               </span>
               <span>12345 your address here, AB 12345</span>
             </p>
-            <p className="flex items-center text-base xl:text-2xl gap-x-4 ">
+            <p className="flex items-center text-base xl:text-[20px] gap-x-4 ">
               <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 36 36">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 36 36">
                   <path
                     fill="currentColor"
                     d="M32 6H4a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2Zm-1.54 22H5.66l7-7.24l-1.44-1.39L4 26.84V9.52l12.43 12.37a2 2 0 0 0 2.82 0L32 9.21v17.5l-7.36-7.36l-1.41 1.41ZM5.31 8h25.07L17.84 20.47Z"
@@ -34,9 +34,9 @@ const Footer = () => {
               </span>
               <span>info@youremail.com</span>
             </p>
-            <p className="flex items-center text-base xl:text-2xl gap-x-4 ">
+            <p className="flex items-center text-base xl:text-[20px] gap-x-4 ">
               <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                   <g fill="none">
                     <path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z" />
                     <path
@@ -50,9 +50,9 @@ const Footer = () => {
             </p>
           </div>
           <div className="lg:col-span-3 text-white">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-              <h2 className="uppercase font-bold text-2xl ">Lorem Ipsum</h2>
-              <div className="flex flex-col text-white/80 lg:text-right">
+            <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
+              <h2 className="lg:col-span-2 uppercase font-bold text-[28px] font-tommy_bold">Lorem Ipsum</h2>
+              <div className="flex flex-col text-white/80 lg:text-right font-tommy text-[20px]">
                 <Link className="text-lg" to="/">
                   Lorem Ipsum
                 </Link>
@@ -63,7 +63,7 @@ const Footer = () => {
                   Lorem Ipsum
                 </Link>
               </div>{" "}
-              <div className="flex flex-col text-white/80 lg:text-right">
+              <div className="flex flex-col text-white/80 lg:text-right font-tommy text-[20px]">
                 <Link className="text-lg" to="/">
                   Lorem Ipsum
                 </Link>
@@ -74,7 +74,7 @@ const Footer = () => {
                   Lorem Ipsum
                 </Link>
               </div>{" "}
-              <div className="flex flex-col text-white/80 lg:text-right">
+              <div className="flex flex-col text-white/80 lg:text-right font-tommy text-[20px]">
                 <Link className="text-lg" to="/">
                   Lorem Ipsum
                 </Link>
@@ -87,18 +87,18 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="mt-8 py-5 px-8 bg-white  rounded-lg">
-              <div className="flex justify-between lg:items-center flex-col xl:flex-row gap-6 xl:gap-0">
-                <h2 className="text-lg font-bold text-black">
+            <div className="mt-8 py-8 px-8 bg-white  rounded-lg">
+              <div className="flex justify-between lg:items-center flex-col xl:flex-row gap-4 xl:gap-0">
+                <h2 className=" text-black text-base font-tommy_bold font-extrabold leading-none">
                   LOREM IPSUM <br /> DOLOR SIT AMET
                 </h2>
-                <h2 className="bg-zinc-400 text-white rounded-lg py-2 px-5 text-base">Lorem ipsum dolor sit amet</h2>
-                <button className="rounded-3xl text-white bg-[#101010] py-2 px-5 font-tommy_bold font-bold">SHOP NOW</button>
+                <h2 className="bg-zinc-400 text-white rounded-lg py-2 px-5 text-[14px] font-tommy">Lorem ipsum dolor sit amet</h2>
+                <button className="rounded-3xl text-white bg-[#101010] py-2 px-5 font-tommy_bold text-[20px]">SHOP NOW</button>
               </div>
             </div>
           </div>
         </div>
-        <div className="text-white/70">© ACA, The Artist Cloud Agency. 2023</div>
+        <div className="text-white/70 text-[18px]">© ACA, The Artist Cloud Agency. 2023</div>
       </div>
     </section>
   );
