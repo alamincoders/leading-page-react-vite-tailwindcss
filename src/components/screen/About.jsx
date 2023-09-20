@@ -3,7 +3,7 @@ import aboutImg2 from "../../assets/images/Asset 1-20.jpg";
 
 const About = () => {
   return (
-    <section className="py-24 lg:py-44 bg-zinc-100/70">
+    <section id="about" className="py-24 lg:py-44 bg-zinc-100/70">
       <div className="container_fluid">
         <div className="flex items-center gap-x-6 mb-12">
           <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 640 512">
