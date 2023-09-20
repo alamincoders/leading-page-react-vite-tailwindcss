@@ -8,14 +8,14 @@ const Navbar = () => {
       <div className="container_fluid">
         <ul className="flex items-center justify-between font-sans">
           <div>
-            <li className=" w-60 sm:w-96 xl:w-[500px]">
+            <li className=" w-60 sm:w-96 lg:w-[280px] xl:w-[450px]">
               <Link to="/">
                 {" "}
                 <img src={logo} alt="" />
               </Link>
             </li>
           </div>
-          <div className="hidden lg:flex items-center space-x-12 text-[23px] uppercase tracking-[0.2em]">
+          <div className="hidden lg:flex items-center space-x-12 font-tommy text-base md:text-lg xl:text-[23px] uppercase tracking-[0.2em]">
             <a href="#home">
               <li>
                 <span>
@@ -60,10 +60,10 @@ const Navbar = () => {
               </li>
             </a>
           </div>
-          <div className="hidden lg:flex items-center justify-center gap-x-6 font-tommy">
+          <div className="hidden lg:flex items-center justify-center gap-x-3 xl:gap-x-6 font-tommy">
             <a href="#social-media">
               <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                <svg className="inline-block -mt-1.5" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                   <path
                     fill="currentColor"
                     d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002ZM7 8.48H3V21h4V8.48Zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68Z"
@@ -109,16 +109,16 @@ const Navbar = () => {
                 >
                   <div className="flex pt-12 justify-center w-full h-full">
                     <div className=" space-y-6 text-xl">
-                      <a href="#home">
+                      <a href="#home" className="block">
                         <li className="hover:text-sky-500">Home</li>{" "}
                       </a>
-                      <a href="#about">
+                      <a href="#about" className="block">
                         <li className="hover:text-sky-500">About</li>{" "}
                       </a>
-                      <a href="#blog">
+                      <a href="#blog" className="block">
                         <li className="hover:text-sky-500">Blogs</li>{" "}
                       </a>
-                      <a href="#contact">
+                      <a href="#contact" className="block">
                         <li className="hover:text-sky-500">Contact</li>{" "}
                       </a>
                     </div>
