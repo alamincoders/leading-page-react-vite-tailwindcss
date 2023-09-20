@@ -4,18 +4,18 @@ import { useState } from "react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="text-white pt-8">
+    <nav className="text-white pt-12">
       <div className="container_fluid">
         <ul className="flex items-center justify-between font-sans">
           <div>
-            <li className=" w-60 sm:w-96">
+            <li className=" w-60 sm:w-96 xl:w-[500px]">
               <Link to="/">
                 {" "}
                 <img src={logo} alt="" />
               </Link>
             </li>
           </div>
-          <div className="hidden lg:flex items-center space-x-12 text-lg uppercase tracking-widest">
+          <div className="hidden lg:flex items-center space-x-12 text-[23px] uppercase tracking-[0.2em]">
             <a href="#home">
               <li>
                 <span>
