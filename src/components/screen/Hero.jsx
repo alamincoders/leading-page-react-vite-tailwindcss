@@ -41,8 +41,8 @@ const Hero = () => {
             <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover bg-top bg-no-repeat min-h-screen relative">
               <div className="text-center">
                 <div className=" ">
-                  <div className=" flex items-center justify-center h-screen bg-black/40 text-white/60">
-                    <div className="">
+                  <div className="flex items-center justify-center h-screen bg-black/40 text-white/60">
+                    <div className="mt-28">
                       <h2 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-[1.25] ">
                         THE ARTIST
                       </h2>
@@ -60,7 +60,7 @@ const Hero = () => {
               <div className="text-center">
                 <div className=" ">
                   <div className=" flex items-center justify-center h-screen bg-black/40 text-white/60">
-                    <div>
+                    <div className="mt-28">
                       <h2 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-[1.25] ">
                         THE ARTIST
                       </h2>
@@ -78,7 +78,7 @@ const Hero = () => {
               <div className="text-center">
                 <div className=" ">
                   <div className=" flex items-center justify-center h-screen bg-black/40 text-white/60">
-                    <div>
+                    <div className="mt-28">
                       <h2 className="font-extrabold text-[45px] sm:text-[65px] md:text-[80px] lg:text-[118px] xl:text-[128px] leading-[1.25] ">
                         THE ARTIST
                       </h2>
