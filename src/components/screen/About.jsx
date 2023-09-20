@@ -1,5 +1,5 @@
-import aboutImg from "../../assets/images/about.gif";
-import aboutImg2 from "../../assets/images/19.jpg";
+import aboutImg from "../../assets/images/Asset 4-8.png";
+import aboutImg2 from "../../assets/images/Asset 1-20.jpg";
 
 const About = () => {
   return (
