@@ -46,7 +46,7 @@ const Gallery = () => {
               {imagesGallery
                 .sort((a, b) => a.id - b.id)
                 .map(({ ImageSrc, id, react, comment }) => (
-                  <div key={id} className="w-full h-[200px] sm:h-[250px] lg:h-[400px] group relative cursor-pointer">
+                  <div key={id} className="w-full h-[250px] sm:h-[380px] lg:h-[400px] group relative cursor-pointer">
                     <img src={ImageSrc} alt="" className="w-full h-full object-cover object-center" />
                     <div className="w-full h-full absolute top-0 left-0 bg-black/60 hidden group-hover:flex items-center justify-center gap-x-4 text-white/80 duration-300 transition-all ease-in-out">
                       <div className="text-center">
