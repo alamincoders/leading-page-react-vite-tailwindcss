@@ -1,7 +1,7 @@
 import founderImg from "../../assets/images/Asset 2-20.jpg";
 const Founder = () => {
   return (
-    <section id="founder" className="py-24 lg:py-44">
+    <section id="founder" className="py-24 md:py-44 lg:py-72">
       <div className="container_fluid">
         <div className="grid grid-cols-1 xl:grid-cols-3 gap-10">
           <div className="w-full h-full">
