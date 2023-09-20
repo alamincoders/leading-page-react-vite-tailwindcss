@@ -6,7 +6,7 @@ const Help = () => {
     <section id="contact" className="relative">
       <div
         style={{ backgroundImage: `url(${bg})` }}
-        className="bg-cover bg-center bg-no-repeat h-[850px] sm:h-[850px] md:h-[900px]  lg:h-[1000px] relative"
+        className="bg-cover bg-center bg-no-repeat h-[920px] sm:h-[850px] md:h-[900px]  lg:h-[1000px] relative"
       >
         <div className="">
           <div className=" absolute w-full  bg-black/70 h-full ">
