@@ -16,7 +16,7 @@ const Navbar = () => {
             </li>
           </div>
           <div className="hidden lg:flex items-center space-x-12 text-lg uppercase tracking-widest">
-            <Link to="#home">
+            <a href="#home">
               <li>
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512" className="inline-block -mt-2 mr-3">
@@ -32,8 +32,8 @@ const Navbar = () => {
                 </span>
                 <span>Home</span>
               </li>
-            </Link>
-            <Link to="#about">
+            </a>
+            <a href="#about">
               <li>
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 640 512" className="inline-block -mt-1.5 mr-3">
@@ -45,8 +45,8 @@ const Navbar = () => {
                 </span>
                 <span>About</span>
               </li>
-            </Link>
-            <Link to="#contact">
+            </a>
+            <a href="#contact">
               <li>
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 100 100" className="inline-block -mt-1.5 mr-3">
@@ -58,10 +58,10 @@ const Navbar = () => {
                 </span>
                 <span>Contact</span>
               </li>
-            </Link>
+            </a>
           </div>
           <div className="hidden lg:flex items-center justify-center gap-x-6">
-            <Link to="#social-media">
+            <a href="#social-media">
               <li>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                   <path
@@ -70,8 +70,8 @@ const Navbar = () => {
                   />
                 </svg>
               </li>
-            </Link>
-            <Link to="#social-media">
+            </a>
+            <a href="#social-media">
               <li>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                   <path
@@ -82,7 +82,7 @@ const Navbar = () => {
                   />
                 </svg>
               </li>
-            </Link>
+            </a>
           </div>
           <div className="block lg:hidden">
             {!isOpen ? (
@@ -109,18 +109,18 @@ const Navbar = () => {
                 >
                   <div className="flex pt-12 justify-center w-full h-full">
                     <div className=" space-y-6 text-xl">
-                      <li className="hover:text-sky-500">
-                        <Link to="#home">Home</Link>
-                      </li>{" "}
-                      <li className="hover:text-sky-500">
-                        <Link to="#about">About</Link>
-                      </li>{" "}
-                      <li className="hover:text-sky-500">
-                        <Link to="#blog">Blogs</Link>
-                      </li>{" "}
-                      <li className="hover:text-sky-500">
-                        <Link to="#contact">Contact</Link>
-                      </li>{" "}
+                      <a href="#home">
+                        <li className="hover:text-sky-500">Home</li>{" "}
+                      </a>
+                      <a href="#about">
+                        <li className="hover:text-sky-500">About</li>{" "}
+                      </a>
+                      <a href="#blog">
+                        <li className="hover:text-sky-500">Blogs</li>{" "}
+                      </a>
+                      <a href="#contact">
+                        <li className="hover:text-sky-500">Contact</li>{" "}
+                      </a>
                     </div>
                   </div>
                 </ul>
