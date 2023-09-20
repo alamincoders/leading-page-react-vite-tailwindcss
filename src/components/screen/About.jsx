@@ -18,7 +18,7 @@ const About = () => {
           </svg>{" "}
           <h2 className="">About Us</h2>
         </div>
-        <div className="space-y-10 md:text-justify text-zinc-500 text-xl md:text-2xl lg:text-[30px] font-tommy_light font-medium">
+        <div className="space-y-10 md:text-justify text-zinc-600 text-xl md:text-2xl lg:text-[30px] font-tommy_light font-medium">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
             <div className="order-2 lg:order-1">
               <p className="!leading-[40px]">
