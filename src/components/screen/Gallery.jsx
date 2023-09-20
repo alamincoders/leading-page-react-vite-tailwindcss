@@ -33,7 +33,7 @@ const Gallery = () => {
     ),
   };
   return (
-    <section id="social-media" className="py-24 md:py-44 lg:py-72 mb-16">
+    <section id="social-media" className="py-24 md:py-44 lg:py-[270px]  mb-16">
       <div className="container_fluid">
         <div className="block md:flex justify-between items-center mb-5 text-zinc-500 font-tommy_light">
           <h2 className="text-2xl md:text-[32px] uppercase">From Our Instagram</h2>
