@@ -1,12 +1,12 @@
-import img1 from "../assets/images/25.jpg";
-import img2 from "../assets/images/19.jpg";
-import img3 from "../assets/images/22.jpg";
-import img4 from "../assets/images/26.jpg";
-import img5 from "../assets/images/23.jpg";
-import img6 from "../assets/images/24.jpg";
-import img7 from "../assets/images/27.jpg";
-import img8 from "../assets/images/28.jpg";
-import img9 from "../assets/images/29.jpg";
+import img1 from "../assets/images/portImage/Asset-10-50.jpg";
+import img2 from "../assets/images/portImage/Asset-11-50.jpg";
+import img3 from "../assets/images/portImage/Asset-12-50.jpg";
+import img4 from "../assets/images/portImage/Asset-13-50.jpg";
+import img5 from "../assets/images/portImage/Asset-9-50.jpg";
+import img6 from "../assets/images/portImage/Asset-8-50.jpg";
+import img7 from "../assets/images/portImage/Asset-7-50.jpg";
+import img8 from "../assets/images/portImage/Asset-6-50.jpg";
+import img9 from "../assets/images/portImage/Asset-5-50.jpg";
 
 export const imagesGallery = [
   {

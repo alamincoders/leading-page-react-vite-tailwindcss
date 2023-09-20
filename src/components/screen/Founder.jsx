@@ -1,11 +1,11 @@
-import founderImg from "../../assets/images/1.jpg";
+import founderImg from "../../assets/images/Asset 2-20.jpg";
 const Founder = () => {
   return (
     <section className="py-24 lg:py-44">
       <div className="container_fluid">
         <div className="grid grid-cols-1 xl:grid-cols-3 gap-10">
           <div className="w-full h-full">
-            <img className="w-full h-full object-cover object-right" src={founderImg} alt="" />
+            <img className="w-full h-full object-cover object-center" src={founderImg} alt="" />
           </div>
           <div className="xl:col-span-2 text-zinc-500/80">
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold  uppercase mb-10">JOHN DOE, FOUNDER</h2>
