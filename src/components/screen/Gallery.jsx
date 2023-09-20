@@ -22,7 +22,7 @@ const Gallery = () => {
           borderRadius: "0",
           padding: "0",
           position: "relative",
-          top: "50px",
+          top: "70px",
         }}
       >
         <ul className="gallery_slide flex justify-center items-center" style={{ margin: "0px" }}>
@@ -35,9 +35,9 @@ const Gallery = () => {
   return (
     <section id="social-media" className="py-24 lg:py-44">
       <div className="container_fluid">
-        <div className="block md:flex justify-between items-center mb-5">
-          <h2 className="text-zinc-400 text-2xl md:text-3xl uppercase ">From Our Instagram</h2>
-          <h2 className="text-zinc-400 text-2xl md:text-3xl ">@instausername</h2>
+        <div className="block md:flex justify-between items-center mb-5 text-zinc-500 font-tommy_light">
+          <h2 className="text-2xl md:text-[32px] uppercase">From Our Instagram</h2>
+          <h2 className="text-2xl md:text-[32px]">@instausername</h2>
         </div>
 
         <Slider {...settings}>
