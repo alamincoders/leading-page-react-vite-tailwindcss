@@ -18,13 +18,13 @@ const About = () => {
           </svg>{" "}
           <h2 className="">About Us</h2>
         </div>
-        <div className="space-y-10">
+        <div className="space-y-10 md:text-justify text-zinc-500 text-xl md:text-2xl lg:text-[30px] font-tommy_light font-medium">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
             <div className="order-2 lg:order-1">
-              <p className="md:text-justify text-zinc-500/80 text-xl md:text-3xl ">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy
-                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into electronic typesetting, remaining
+              <p className="!leading-[40px]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt adipisci impedit soluta libero voluptatum nihil accusamus quidem
+                vero veniam, alias fugit fuga quod quasi, nobis expedita est consequatur exercitationem molestiae! Ad dolorem modi voluptatum atque,
+                quasi nulla corrupti minus veniam itaque consectetur velit eos assumenda eum, optio quaerat maiores sapiente?
               </p>
             </div>
             <div className=" w-full h-full order-1 lg:order-2">
@@ -33,10 +33,10 @@ const About = () => {
           </div>{" "}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div className="w-full h-full">
-              <img className="w-full h-full object-cover object-top" src={aboutImg} alt="" />
+              <img className="" src={aboutImg} alt="" />
             </div>
             <div className="">
-              <p className="md:text-justify text-zinc-500/80 text-xl md:text-3xl ">
+              <p className="!leading-[40px]">
                 essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
                 recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It has survived not only five
                 centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
