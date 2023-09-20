@@ -27,6 +27,7 @@ body {
   font-family: "Tommy_light";
   box-sizing: border-box;
   position: relative;
+  overflow-x: hidden;
 }
 
 .container_fluid {
