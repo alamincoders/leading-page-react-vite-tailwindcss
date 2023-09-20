@@ -45,7 +45,7 @@ const Hero = () => {
               <div className="text-center">
                 <div className=" ">
                   <div className="flex items-center justify-center h-[600px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[1200px] bg-black/40 text-white/60">
-                    <div className="mt-28 font-extrabold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px] leading-[1.25]">
+                    <div className="mt-28 font-extrabold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px] leading-[1.25] font-tommy_bold">
                       <h2 className="">THE ARTIST</h2>
                       <h2 className="">CLOUD AGENCY</h2>
                     </div>
@@ -62,7 +62,7 @@ const Hero = () => {
               <div className="text-center">
                 <div className=" ">
                   <div className=" flex items-center justify-center h-[600px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[1200px] bg-black/40 text-white/60">
-                    <div className="mt-28 font-extrabold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px] leading-[1.25]">
+                    <div className="mt-28 font-extrabold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px] leading-[1.25] font-tommy_bold">
                       <h2 className=" ">THE ARTIST</h2>
                       <h2 className="">CLOUD AGENCY</h2>
                     </div>
@@ -79,7 +79,7 @@ const Hero = () => {
               <div className="text-center">
                 <div className=" ">
                   <div className=" flex items-center justify-center h-[600px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[1200px] bg-black/40 text-white/60">
-                    <div className="mt-28 font-extrabold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px] leading-[1.25]">
+                    <div className="mt-28 font-extrabold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px] leading-[1.25] font-tommy_bold">
                       <h2 className=" ">THE ARTIST</h2>
                       <h2 className="">CLOUD AGENCY</h2>
                     </div>
