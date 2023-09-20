@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import bg from "../../assets/images/hero-slider.jpg";
-import bg2 from "../../assets/images/raw img/21.jpg";
-import bg3 from "../../assets/images/raw img/23.jpg";
+import bg2 from "../../assets/images/21.jpg";
+import bg3 from "../../assets/images/28.jpg";
 
 const Hero = () => {
   const settings = {

@@ -1,5 +1,5 @@
-import bg from "../../assets/images/18.jpg";
-import bg2 from "../../assets/images/bg.jpg";
+import bg from "../../assets/images/bg.jpg";
+import bg2 from "../../assets/images/Asset 3-50.jpg";
 
 const Help = () => {
   return (
