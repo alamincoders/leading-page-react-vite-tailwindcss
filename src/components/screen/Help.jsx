@@ -29,7 +29,7 @@ const Help = () => {
           </div>
         </div>
       </div>
-      <div className="relative -mt-[115px] sm:-mt-[190px] lg:-mt-[270px] xl:-mt-[350px] z-10 mb-28 sm:mb-32 lg:mb-36 xl:mb-40 2xl:mb-48">
+      <div className="relative -mt-[100px] sm:-mt-[190px] lg:-mt-[270px] xl:-mt-[350px] z-10 mb-20 sm:mb-32 lg:mb-36 xl:mb-40 2xl:mb-48">
         <div className="container_fluid">
           <img className="w-full h-full object-cover object-center rounded-lg" src={bg2} alt="" />
         </div>
