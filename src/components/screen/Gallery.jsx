@@ -42,7 +42,7 @@ const Gallery = () => {
 
         <Slider {...settings}>
           <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px] border border-r-2">
               {imagesGallery
                 .sort((a, b) => a.id - b.id)
                 .map(({ ImageSrc, id, react, comment }) => (
@@ -85,7 +85,7 @@ const Gallery = () => {
             </div>
           </div>
           <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px] border border-r-2">
               {imagesGallery
                 .sort((a, b) => b.id - a.id)
                 .map(({ ImageSrc, id, react, comment }) => (
@@ -122,7 +122,7 @@ const Gallery = () => {
             </div>
           </div>
           <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px] border border-r-2">
               {imagesGallery
                 .sort((a, b) => a.id - b.id)
                 .map(({ ImageSrc, id, react, comment }) => (
