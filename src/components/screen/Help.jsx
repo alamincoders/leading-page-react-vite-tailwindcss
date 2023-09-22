@@ -6,7 +6,7 @@ const Help = () => {
     <section id="contact" className="relative">
       <div
         style={{ backgroundImage: `url(${bg})` }}
-        className="bg-cover bg-center bg-no-repeat h-[920px] sm:h-[850px] md:h-[900px]  lg:h-[1000px] relative"
+        className="bg-cover bg-center bg-no-repeat h-[750px] sm:h-[850px] md:h-[900px]  lg:h-[1000px] relative"
       >
         <div className="">
           <div className=" absolute w-full  bg-black/70 h-full ">
@@ -29,8 +29,8 @@ const Help = () => {
           </div>
         </div>
       </div>
-      <div className="relative pb-[250px] sm:pb-[250px] md:pb-[250px] lg:pb-[350px] xl:pb-[460px]">
-        <div className="container_fluid h-96 lg:h-[500px] xl:h-[700px] !overflow-hidden absolute -top-[200px] sm:-top-[200px] md:-top-[200px] lg:-top-[250px] xl:-top-[350px] sm:left-[2%] md:left-[3%] lg:left-[3%] xl:left-[5%] 2xl:left-[15%]">
+      <div className="relative -mt-[115px] sm:-mt-[190px] lg:-mt-[270px] xl:-mt-[350px] z-10 mb-28 sm:mb-32 lg:mb-36 xl:mb-40 2xl:mb-48">
+        <div className="container_fluid">
           <img className="w-full h-full object-cover object-center rounded-lg" src={bg2} alt="" />
         </div>
       </div>
