@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import bg from "../../assets/images/hero-slider.jpg";
+import "slick-carousel/slick/slick.css";
 import bg2 from "../../assets/images/21.jpg";
 import bg3 from "../../assets/images/28.jpg";
+import bg from "../../assets/images/hero-slider.jpg";
 
 const Hero = () => {
   const settings = {
@@ -46,14 +46,15 @@ const Hero = () => {
                 <div className=" ">
                   <div className="flex items-center justify-center h-[600px] sm:h-[650px] md:h-[700px] lg:h-[800px] xl:h-[1200px] bg-black/40 text-white/60">
                     <div className="mt-28 font-extrabold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px] leading-[1.25] font-tommy_bold">
-                      <h2 className="">THE ARTIST</h2>
-                      <h2 className="">CLOUD AGENCY</h2>
+                      <h2 className="uppercase">Welcome to The Artist</h2>
+                      <h2 className="uppercase">Agency: Your AI Identity, Your Control</h2>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>{" "}
+          
           <div>
             <div
               style={{ backgroundImage: `url(${bg2})` }}
