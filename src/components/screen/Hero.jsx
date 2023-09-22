@@ -96,6 +96,8 @@ const Hero = () => {
 
 export default Hero;
 
+
+// next arrow icon here
 function SampleNextArrow(props) {
   const { className, onClick } = props;
   return (
@@ -106,7 +108,7 @@ function SampleNextArrow(props) {
     </button>
   );
 }
-
+//  preview arrow icon here
 function SamplePrevArrow(props) {
   const { className, onClick } = props;
   return (
