@@ -11,7 +11,7 @@ const About = () => {
         <div className="space-y-10 md:text-justify">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16">
             <div className="order-2 xl:order-1">
-              <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+              <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-tommy_bold text-black/90 leading-tight">
                 Preserving <br /> Your AI Identity
               </h2>
               <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
@@ -42,7 +42,7 @@ const About = () => {
               <img className="w-full h-full" src={aboutImg} alt="" />
             </div>
             <div className="">
-              <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+              <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-bold text-black/90 leading-tight">
                 Our Commitment: <br />
                 Your Digital Guardian
               </h2>
@@ -58,7 +58,7 @@ const About = () => {
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16">
             <div className="order-2 xl:order-1">
               <div>
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px]  font-bold text-black/90 leading-tight">
                   Protection <br /> Against Impersonation
                 </h2>
                 <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
@@ -69,7 +69,7 @@ const About = () => {
                 </div>
               </div>{" "}
               <div className="mt-10">
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px]  font-bold text-black/90 leading-tight">
                   Your Digital <br />
                   Legacy, Your Ownership
                 </h2>
@@ -92,7 +92,7 @@ const About = () => {
             </div>
             <div className="">
               <div>
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px]  font-bold text-black/90 leading-tight">
                   Booking Jobs <br />
                   with Confidence
                 </h2>
@@ -104,7 +104,7 @@ const About = () => {
                 </div>
               </div>
               <div className="mt-10">
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px]  font-bold text-black/90 leading-tight">
                   One Vault, <br />
                   Total Protection
                 </h2>
@@ -116,7 +116,7 @@ const About = () => {
                 </div>
               </div>
               <div className="mt-10">
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px]  font-bold text-black/90 leading-tight">
                   Join Us in Empowering <br />
                   Your Digital Identity
                 </h2>
@@ -133,7 +133,7 @@ const About = () => {
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16">
             <div className="order-2 xl:order-1">
               <div>
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px]  font-bold text-black/90 leading-tight">
                   Your Digital <br />
                   Legacy, Secured
                 </h2>
@@ -146,7 +146,7 @@ const About = () => {
                 </div>
               </div>{" "}
               <div className="mt-10">
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px]  font-bold text-black/90 leading-tight">
                   Join Us in the <br />
                   Digital Revolution
                 </h2>
