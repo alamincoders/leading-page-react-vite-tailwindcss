@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import bg from "../../assets/images/hero-slider.jpg";
+import "slick-carousel/slick/slick.css";
 import bg2 from "../../assets/images/21.jpg";
 import bg3 from "../../assets/images/28.jpg";
+import bg from "../../assets/images/hero-slider.jpg";
 
 const Hero = () => {
   const settings = {
