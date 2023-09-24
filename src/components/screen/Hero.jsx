@@ -42,18 +42,28 @@ const Hero = () => {
       <div>
         <Slider {...settings}>
           <div>
-            <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover bg-top bg-no-repeat h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] relative">
+            <div
+              style={{ backgroundImage: `url(${bg})` }}
+              className="bg-cover bg-top bg-no-repeat h-[800px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] relative"
+            >
               <div className="text-center">
                 <div className=" ">
-                  <div className="flex items-center justify-center h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] bg-black/60 text-white">
+                  <div className="flex items-center justify-center h-[800px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] bg-black/60 text-white">
                     <div>
                       <div className="mt-28 font-bold text-[30px] sm:text-[40px] md:text-[60px] lg:text-[70px] xl:text-[90px] 2xl:text-[120px] leading-[1.32] font-tommy_bold">
                         <h2 className="">WELCOME TO</h2>
                         <h2 className="">THE ARTIST AGENCY</h2>
                       </div>
                       <div className="text-white/90 container_fluid  ">
-                        <h3 className="uppercase text-[22px] sm:text-[28px] lg:text-[36px] xl:text-[42px] tracking-[2px] font-medium mt-3">where your ai identity finds its sanc tuary.</h3>
-                        <p className="text-base sm:text-[16px] lg:text-[20px] xl:text-[22px] mt-6 sm:mt-12 lg:mt-[70px] font-medium  leading-[32px]">In today&apos;s fast-paced digital landscape, protecting your unique AI identity is paramount. At The Artist Agency, we specialise in safeguarding the digital likeness of public figures, sports stars, entertainers, and content creators. We&apos;re here to empower you by creating, preserving, and protecting your AI identity, all while ensuring you retain full ownership and control</p>
+                        <h3 className="uppercase text-[20px] sm:text-[28px] lg:text-[36px] xl:text-[42px] font-medium mt-3">
+                          where your ai identity finds its sanc tuary.
+                        </h3>
+                        <p className="text-base sm:text-[18px] lg:text-[22px] mt-6 sm:mt-12 lg:mt-[72px] font-medium leading-snug">
+                          In today&apos;s fast-paced digital landscape, protecting your unique AI identity is paramount. At The Artist Agency, we
+                          specialise in safeguarding the digital likeness of public figures, sports stars, entertainers, and content creators.
+                          We&apos;re here to empower you by creating, preserving, and protecting your AI identity, all while ensuring you retain full
+                          ownership and control
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -62,18 +72,28 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <div style={{ backgroundImage: `url(${bg2})` }} className="bg-cover bg-top bg-no-repeat h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] relative">
+            <div
+              style={{ backgroundImage: `url(${bg2})` }}
+              className="bg-cover bg-top bg-no-repeat h-[800px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] relative"
+            >
               <div className="text-center">
                 <div className=" ">
-                  <div className="flex items-center justify-center h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] bg-black/60 text-white">
+                  <div className="flex items-center justify-center h-[800px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] bg-black/60 text-white">
                     <div>
                       <div className="mt-28 font-bold text-[30px] sm:text-[40px] md:text-[60px] lg:text-[70px] xl:text-[90px] 2xl:text-[120px] leading-[1.32] font-tommy_bold">
                         <h2 className="">WELCOME TO</h2>
                         <h2 className="">THE ARTIST AGENCY</h2>
                       </div>
                       <div className="text-white/90 container_fluid  ">
-                        <h3 className="uppercase text-[22px] sm:text-[28px] lg:text-[36px] xl:text-[42px] tracking-[2px] font-medium mt-3">where your ai identity finds its sanc tuary.</h3>
-                        <p className="text-base sm:text-[16px] lg:text-[20px] xl:text-[22px] mt-6 sm:mt-12 lg:mt-[70px] font-medium leading-[32px]">In today&apos;s fast-paced digital landscape, protecting your unique AI identity is paramount. At The Artist Agency, we specialise in safeguarding the digital likeness of public figures, sports stars, entertainers, and content creators. We&apos;re here to empower you by creating, preserving, and protecting your AI identity, all while ensuring you retain full ownership and control</p>
+                        <h3 className="uppercase text-[20px] sm:text-[28px] lg:text-[36px] xl:text-[42px] font-medium mt-3">
+                          where your ai identity finds its sanc tuary.
+                        </h3>
+                        <p className="text-base sm:text-[18px] lg:text-[22px] mt-6 sm:mt-12 lg:mt-[72px] font-medium leading-snug">
+                          In today&apos;s fast-paced digital landscape, protecting your unique AI identity is paramount. At The Artist Agency, we
+                          specialise in safeguarding the digital likeness of public figures, sports stars, entertainers, and content creators.
+                          We&apos;re here to empower you by creating, preserving, and protecting your AI identity, all while ensuring you retain full
+                          ownership and control
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -82,18 +102,28 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <div style={{ backgroundImage: `url(${bg3})` }} className="bg-cover bg-top bg-no-repeat h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] relative">
+            <div
+              style={{ backgroundImage: `url(${bg3})` }}
+              className="bg-cover bg-top bg-no-repeat h-[800px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] relative"
+            >
               <div className="text-center">
-                <div className="">
-                  <div className="flex items-center justify-center h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] bg-black/60 text-white">
+                <div className=" ">
+                  <div className="flex items-center justify-center h-[800px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] bg-black/60 text-white">
                     <div>
                       <div className="mt-28 font-bold text-[30px] sm:text-[40px] md:text-[60px] lg:text-[70px] xl:text-[90px] 2xl:text-[120px] leading-[1.32] font-tommy_bold">
                         <h2 className="">WELCOME TO</h2>
                         <h2 className="">THE ARTIST AGENCY</h2>
                       </div>
-                      <div className="text-white/90 container_fluid">
-                        <h3 className="uppercase text-[22px] sm:text-[28px] lg:text-[36px] xl:text-[42px] tracking-[2px] font-medium mt-3">where your ai identity finds its sanc tuary.</h3>
-                        <p className="text-base sm:text-[16px] lg:text-[20px] xl:text-[22px] mt-6 sm:mt-12 lg:mt-[70px] font-medium  leading-[32px] xl:mx-[50px]">In today&apos;s fast-paced digital landscape, protecting your unique AI identity is paramount. At The Artist Agency, we specialise in safeguarding the digital likeness of public figures, sports stars, entertainers, and content creators. We&apos;re here to empower you by creating, preserving, and protecting your AI identity, all while ensuring you retain full ownership and control</p>
+                      <div className="text-white/90 container_fluid  ">
+                        <h3 className="uppercase text-[20px] sm:text-[28px] lg:text-[36px] xl:text-[42px] font-medium mt-3">
+                          where your ai identity finds its sanc tuary.
+                        </h3>
+                        <p className="text-base sm:text-[18px] lg:text-[22px] mt-6 sm:mt-12 lg:mt-[72px] font-medium leading-snug">
+                          In today&apos;s fast-paced digital landscape, protecting your unique AI identity is paramount. At The Artist Agency, we
+                          specialise in safeguarding the digital likeness of public figures, sports stars, entertainers, and content creators.
+                          We&apos;re here to empower you by creating, preserving, and protecting your AI identity, all while ensuring you retain full
+                          ownership and control
+                        </p>
                       </div>
                     </div>
                   </div>
