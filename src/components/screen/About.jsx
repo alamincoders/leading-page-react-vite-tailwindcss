@@ -38,7 +38,7 @@ const About = () => {
           </div>{" "}
           {/* ================================================= */}
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16 items-center">
-            <div className="w-96 h-96 mx-auto">
+            <div className="sm:w-96 sm:h-96 mx-auto">
               <img className="w-full h-full" src={aboutImg} alt="" />
             </div>
             <div className="">
