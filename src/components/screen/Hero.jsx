@@ -139,7 +139,7 @@ const Hero = () => {
 
 export default Hero;
 
-// next arrow icon below
+// next arrow icon here
 function SampleNextArrow(props) {
   const { className, onClick } = props;
   return (
