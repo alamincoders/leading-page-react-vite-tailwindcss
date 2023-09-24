@@ -1,47 +1,165 @@
 import aboutImg from "../../assets/images/Asset 4-8.png";
-import aboutImg2 from "../../assets/images/Asset 1-20.jpg";
+import aboutImg2 from "../../assets/images/latest/img.jpg";
+import aboutImg3 from "../../assets/images/latest/img3.jpg";
+import aboutImg4 from "../../assets/images/latest/img-4.png";
+import aboutImg5 from "../../assets/images/latest/img5.jpg";
 
 const About = () => {
   return (
     <section id="about" className="py-24 md:py-44 lg:py-72 bg-zinc-100/70">
       <div className="container_fluid">
-        <div className="flex items-center gap-x-3 lg:gap-x-6 mb-12 font-tommy_bold text-3xl sm:text-5xl lg:text-[70px] uppercase">
-          <svg
-            className=" sm:-mt-1 lg:-mt-2 inline-block w-[32px] h-[32px] sm:w-[45px] sm:h-[45px] lg:w-[65px] lg:h-[65px]"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 640 512"
-          >
-            <path
-              fill="currentColor"
-              d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64s-64 28.7-64 64s28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64s-64 28.7-64 64s28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6c40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32S208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"
-            />
-          </svg>{" "}
-          <h2 className="">About Us</h2>
-        </div>
-        <div className="space-y-10 md:text-justify text-zinc-600 text-xl md:text-2xl lg:text-[30px] font-tommy_light font-medium">
+        <div className="space-y-10 md:text-justify">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16">
             <div className="order-2 xl:order-1">
-              <p className="!leading-[40px]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt adipisci impedit soluta libero voluptatum nihil accusamus quidem
-                vero veniam, alias fugit fuga quod quasi, nobis expedita est consequatur exercitationem molestiae! Ad dolorem modi voluptatum atque,
-                quasi nulla corrupti minus veniam itaque consectetur velit eos assumenda eum, optio quaerat maiores sapiente?
-              </p>
+              <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                Preserving <br /> Your AI Identity
+              </h2>
+              <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
+                <p className="my-5 leading-tight">
+                  Your AI identity is a reflection of who you are in the digital world. Here&apos;s how we assist you
+                </p>{" "}
+                <p className="my-5 leading-tight">
+                  <strong>1. Tailored AI Avatars:</strong> We craft customised AI avatars that faithfully mirror your appearance, personality, and
+                  style. These avatars are designed to capture the essence of your identity.
+                </p>{" "}
+                <p className="my-5 leading-tight">
+                  <strong>2. Voice Preservation:</strong> Your unique voice is a crucial part of your digital identity. We use advanced technology to
+                  replicate and securely store your online voice, ensuring it remains exclusively yours.
+                </p>
+                <p className="my-5 leading-tight">
+                  <strong>3. Cutting-Edge Vault:</strong> Our state-of-the-art vault is where we secure your AI identity. It&apos;s impenetrable to
+                  un-authorized access or tampering. Your digital likeness is stored in a single, secure location
+                </p>
+              </div>
             </div>
             <div className=" w-full h-full order-1 xl:order-2">
-              <img className="w-full h-full object-cover object-top" src={aboutImg2} alt="" />
+              <img className="w-full h-full object-cover object-right" src={aboutImg2} alt="" />
             </div>
           </div>{" "}
+          {/* ================================================= */}
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16 items-center">
-            <div className="w-full h-full">
+            <div className="w-96 h-96 mx-auto">
               <img className="w-full h-full" src={aboutImg} alt="" />
             </div>
             <div className="">
-              <p className="!leading-[40px]">
-                essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It has survived not only five
-                centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets.
-              </p>
+              <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                Our Commitment: <br />
+                Your Digital Guardian
+              </h2>
+              <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
+                <p className="my-5 leading-tight">
+                  At The Artist Agency, our unwavering commitment is to be the vigilant guardian of your AI identity. We understand the value of your
+                  digital likeness and the importance of keeping it under your control.
+                </p>{" "}
+              </div>
+            </div>
+          </div>
+          {/* ================================================= */}
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16">
+            <div className="order-2 xl:order-1">
+              <div>
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                  Protection <br /> Against Impersonation
+                </h2>
+                <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
+                  <p className="my-5 leading-tight">
+                    In an era of increasing deepfake and AI impersonation threats, we&apos;re your shield. If anyone attempts to use a fake AI avatar
+                    of you, our up-to-date AI programming and the avatars we&apos;ve crafted will swiftly expose the deception
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="mt-10">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                  Your Digital <br />
+                  Legacy, Your Ownership
+                </h2>
+                <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
+                  <p className="my-5 leading-tight">
+                    In an era of increasing deepfake and AI impersonation threats, we&apos;re your shield. If anyone attempts to use a fake AI avatar
+                    of you, our up-to-date AI programming and the avatars we&apos;ve crafted will swiftly expose the deception
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className=" w-full h-full order-1 xl:order-2">
+              <img className="w-full h-full object-cover object-right" src={aboutImg3} alt="" />
+            </div>
+          </div>
+          {/* ================================================= */}
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16 items-center">
+            <div className="w-[75%] mx-auto">
+              <img className="w-full h-full" src={aboutImg4} alt="" />
+            </div>
+            <div className="">
+              <div>
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                  Booking Jobs <br />
+                  with Confidence
+                </h2>
+                <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
+                  <p className="my-5 leading-tight">
+                    When you land a job that requires the use of your digital likeness, we&apos;re your partners. The Artist Agency collaborates with
+                    you to create the required performance, ensuring your digital identity is portrayed accurately and professionally.
+                  </p>{" "}
+                </div>
+              </div>
+              <div className="mt-10">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                  One Vault, <br />
+                  Total Protection
+                </h2>
+                <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
+                  <p className="my-5 leading-tight">
+                    At The Artist Agency, your AI identity is stored in one secure vault, exclusively for you. We don&apos;t own or control it.
+                    It&apos;s your property, and our mission is to keep it safe
+                  </p>{" "}
+                </div>
+              </div>
+              <div className="mt-10">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                  Join Us in Empowering <br />
+                  Your Digital Identity
+                </h2>
+                <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
+                  <p className="my-5 leading-tight">
+                    Embrace the future with confidence. Choose The Artist Agency as your ally in the digital realm. Contact us today to discover how
+                    we can help you preserve and protect your AI identity like never before
+                  </p>{" "}
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* ================================================= */}
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16">
+            <div className="order-2 xl:order-1">
+              <div>
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                  Your Digital <br />
+                  Legacy, Secured
+                </h2>
+                <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
+                  <p className="my-5 leading-tight">
+                    Your digital identity is your legacy, and we&apos;re here to ensure it&apos;s protected for generations to come. With The Artist
+                    Agency, you can trust that your AI likeness is safeguarded, allowing you to focus on what you do best – creating, entertaining,
+                    and inspiring.
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="mt-10">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                  Join Us in the <br />
+                  Digital Revolution
+                </h2>
+                <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
+                  <p className="my-5 leading-tight">
+                    Embrace the future with confidence, knowing that The Artist Agency has your back. Join us in the digital revolution and take
+                    control of your AI identity. Contact us today to discover how we can preserve and protect your digital legacy like never before.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className=" w-full h-full order-1 xl:order-2">
+              <img className="w-full h-full object-cover object-right" src={aboutImg5} alt="" />
             </div>
           </div>
         </div>
