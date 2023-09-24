@@ -40,11 +40,11 @@ const Hero = () => {
           <div>
             <div
               style={{ backgroundImage: `url(${bg})` }}
-              className="bg-cover bg-top bg-no-repeat h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1600px] relative"
+              className="bg-cover bg-top bg-no-repeat h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] relative"
             >
               <div className="text-center">
                 <div className=" ">
-                  <div className="flex items-center justify-center h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1600px] bg-black/60 text-white">
+                  <div className="flex items-center justify-center h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] bg-black/60 text-white">
                     <div>
                       <div className="mt-28 font-bold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px]  leading-[1.00]  font-tommy_bold">
                         <h2 className="">THE ARTIST</h2>
@@ -70,11 +70,11 @@ const Hero = () => {
           <div>
             <div
               style={{ backgroundImage: `url(${bg2})` }}
-              className="bg-cover bg-top bg-no-repeat h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1600px] relative"
+              className="bg-cover bg-top bg-no-repeat h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] relative"
             >
               <div className="text-center">
                 <div className=" ">
-                  <div className="flex items-center justify-center h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1600px] bg-black/60 text-white">
+                  <div className="flex items-center justify-center h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] bg-black/60 text-white">
                     <div>
                       <div className="mt-28 font-bold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px]  leading-[1.00]  font-tommy_bold">
                         <h2 className="">THE ARTIST</h2>
@@ -100,11 +100,11 @@ const Hero = () => {
           <div>
             <div
               style={{ backgroundImage: `url(${bg3})` }}
-              className="bg-cover bg-top bg-no-repeat h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1600px] relative"
+              className="bg-cover bg-top bg-no-repeat h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] relative"
             >
               <div className="text-center">
                 <div className=" ">
-                  <div className="flex items-center justify-center h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1600px] bg-black/60 text-white">
+                  <div className="flex items-center justify-center h-[700px] sm:h-[750px] md:h-[800px] lg:h-[1000px] xl:h-[1550px] bg-black/60 text-white">
                     <div>
                       <div className="mt-28 font-bold text-[40px] sm:text-[60px] md:text-[90px] lg:text-[120px] xl:text-[150px]  leading-[1.00]  font-tommy_bold">
                         <h2 className="">THE ARTIST</h2>
