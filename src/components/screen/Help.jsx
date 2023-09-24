@@ -14,7 +14,7 @@ const Help = () => {
               <div className="container_fluid py-24 lg:py-44 flex items-center justify-center lg:block h-full">
                 <div className="flex flex-col gap-y-12">
                   <div>
-                    <div className=" font-tommy_bold text-3xl sm:text-5xl lg:text-[50px]">
+                    <div className="font-tommy_bold text-3xl sm:text-5xl lg:text-[50px]">
                       {" "}
                       <h2 className=" leading-[1.25] mb-3">*A LOVE FOR ENTERTAINMENT AND BUSINESS:*</h2>
                     </div>

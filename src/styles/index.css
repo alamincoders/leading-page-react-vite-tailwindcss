@@ -4,15 +4,15 @@
 
 @font-face {
   font-family: "Tommy_light";
-  src: url("../assets/fonts/RBOFOF-MADETOMMY-Light.ttf");
+  src: url("../assets/fonts/MadeTommyLight.otf");
 }
 @font-face {
   font-family: "Tommy";
-  src: url("../assets/fonts/GNDRQB-MADETOMMY.ttf");
+  src: url("../assets/fonts/MadeTommyRegular.otf");
 }
 @font-face {
   font-family: "Tommy_bold";
-  src: url("../assets/fonts/SCJQCD-MADETOMMY-Bold.ttf");
+  src: url("../assets/fonts/MadeTommyBold.otf");
 }
 
 * {
@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  font-family: "Tommy_light";
+  font-family: "Tommy";
   box-sizing: border-box;
   position: relative;
   overflow-x: hidden;

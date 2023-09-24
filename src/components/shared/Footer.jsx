@@ -89,7 +89,7 @@ const Footer = () => {
 
             <div className="mt-8 py-8 px-8 bg-white  rounded-lg">
               <div className="flex justify-between lg:items-center flex-col xl:flex-row gap-4 xl:gap-0">
-                <h2 className=" text-black text-base font-tommy_bold font-extrabold leading-none">
+                <h2 className=" text-black text-base font-tommy_bold font-bold leading-none">
                   LOREM IPSUM <br /> DOLOR SIT AMET
                 </h2>
                 <h2 className="bg-zinc-400 text-white rounded-lg py-2 px-5 text-[14px] font-tommy">Lorem ipsum dolor sit amet</h2>

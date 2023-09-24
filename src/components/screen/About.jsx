@@ -11,24 +11,26 @@ const About = () => {
         <div className="space-y-10 md:text-justify">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16">
             <div className="order-2 xl:order-1">
-              <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+              <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-tommy_bold text-black/90 leading-tight">
                 Preserving <br /> Your AI Identity
               </h2>
-              <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
+              <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400">
                 <p className="my-5 leading-tight">
                   Your AI identity is a reflection of who you are in the digital world. Here&apos;s how we assist you
                 </p>{" "}
                 <p className="my-5 leading-tight">
-                  <strong>1. Tailored AI Avatars:</strong> We craft customised AI avatars that faithfully mirror your appearance, personality, and
-                  style. These avatars are designed to capture the essence of your identity.
+                  <span className="font-bold font-tommy_bold !text-zinc-500/80">1. Tailored AI Avatars:</span> We craft customised AI avatars that
+                  faithfully mirror your appearance, personality, and style. These avatars are designed to capture the essence of your identity.
                 </p>{" "}
                 <p className="my-5 leading-tight">
-                  <strong>2. Voice Preservation:</strong> Your unique voice is a crucial part of your digital identity. We use advanced technology to
-                  replicate and securely store your online voice, ensuring it remains exclusively yours.
+                  <span className="font-bold font-tommy_bold !text-zinc-500/80">2. Voice Preservation:</span> Your unique voice is a crucial part of
+                  your digital identity. We use advanced technology to replicate and securely store your online voice, ensuring it remains exclusively
+                  yours.
                 </p>
                 <p className="my-5 leading-tight">
-                  <strong>3. Cutting-Edge Vault:</strong> Our state-of-the-art vault is where we secure your AI identity. It&apos;s impenetrable to
-                  un-authorized access or tampering. Your digital likeness is stored in a single, secure location
+                  <span className="font-bold font-tommy_bold !text-zinc-500/80">3. Cutting-Edge Vault:</span> Our state-of-the-art vault is where we
+                  secure your AI identity. It&apos;s impenetrable to un-authorized access or tampering. Your digital likeness is stored in a single,
+                  secure location
                 </p>
               </div>
             </div>
@@ -42,7 +44,7 @@ const About = () => {
               <img className="w-full h-full" src={aboutImg} alt="" />
             </div>
             <div className="">
-              <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+              <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-tommy_bold text-black/90 leading-tight">
                 Our Commitment: <br />
                 Your Digital Guardian
               </h2>
@@ -58,7 +60,7 @@ const About = () => {
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16">
             <div className="order-2 xl:order-1">
               <div>
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-tommy_bold text-black/90 leading-tight">
                   Protection <br /> Against Impersonation
                 </h2>
                 <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
@@ -69,7 +71,7 @@ const About = () => {
                 </div>
               </div>{" "}
               <div className="mt-10">
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-tommy_bold text-black/90 leading-tight">
                   Your Digital <br />
                   Legacy, Your Ownership
                 </h2>
@@ -92,7 +94,7 @@ const About = () => {
             </div>
             <div className="">
               <div>
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-tommy_bold text-black/90 leading-tight">
                   Booking Jobs <br />
                   with Confidence
                 </h2>
@@ -104,7 +106,7 @@ const About = () => {
                 </div>
               </div>
               <div className="mt-10">
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-tommy_bold text-black/90 leading-tight">
                   One Vault, <br />
                   Total Protection
                 </h2>
@@ -116,7 +118,7 @@ const About = () => {
                 </div>
               </div>
               <div className="mt-10">
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-tommy_bold text-black/90 leading-tight">
                   Join Us in Empowering <br />
                   Your Digital Identity
                 </h2>
@@ -133,7 +135,7 @@ const About = () => {
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16">
             <div className="order-2 xl:order-1">
               <div>
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-tommy_bold text-black/90 leading-tight">
                   Your Digital <br />
                   Legacy, Secured
                 </h2>
@@ -146,7 +148,7 @@ const About = () => {
                 </div>
               </div>{" "}
               <div className="mt-10">
-                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] !font-sans font-extrabold text-black/90 leading-tight">
+                <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-tommy_bold text-black/90 leading-tight">
                   Join Us in the <br />
                   Digital Revolution
                 </h2>
