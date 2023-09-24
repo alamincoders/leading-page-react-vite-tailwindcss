@@ -115,9 +115,6 @@ const Navbar = () => {
                       <a href="#about" className="block">
                         <li className="hover:text-sky-500">About</li>{" "}
                       </a>
-                      <a href="#blog" className="block">
-                        <li className="hover:text-sky-500">Blogs</li>{" "}
-                      </a>
                       <a href="#contact" className="block">
                         <li className="hover:text-sky-500">Contact</li>{" "}
                       </a>
