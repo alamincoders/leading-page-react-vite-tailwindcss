@@ -135,7 +135,7 @@ const Hero = () => {
 
 export default Hero;
 
-// next arrow icon here
+// next arrow icon below
 function SampleNextArrow(props) {
   const { className, onClick } = props;
   return (
