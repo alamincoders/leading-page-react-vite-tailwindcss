@@ -7,7 +7,7 @@ const Founder = () => {
         <div className="container_fluid">
           <div className="w-full h-32 bg-black absolute z-0 hidden lg:block"></div>
           <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 md:gap-16 z-10 relative">
-            <div className="w-3/4 xl:w-full h-full">
+            <div className="w-full lg:w-3/4 xl:w-full h-full">
               <img className="w-full h-full object-cover object-center" src={founderImg} alt="" />
             </div>
             <div className="xl:col-span-2 mt-5">
@@ -24,7 +24,7 @@ const Founder = () => {
                 </div>
               </div>
               <div className="  text-zinc-400 font-tommy mt-5">
-                <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-[500]  text-zinc-500/90 mb-3">
+                <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-tommy_bold  text-zinc-500/90 mb-3">
                   <strong>FORMER VICE PRESIDENT AT DOCUSIGN</strong>
                 </h5>
                 <div className="text-base sm:text-[18px] lg:text-[22px]">
@@ -41,7 +41,7 @@ const Founder = () => {
           <div className="mt-12">
             {/* =========================================== */}
             <div className="  text-zinc-400 font-tommy mt-7">
-              <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-[500]  text-zinc-500/90 mb-3">
+              <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-tommy_bold  text-zinc-500/90 mb-3">
                 <strong>FOUNDER AND CEO/CTO OF APPURI (ACQUIRED BY DOCUSIGN)</strong>
               </h5>
               <div className="text-base sm:text-[18px] lg:text-[22px]">
@@ -54,7 +54,7 @@ const Founder = () => {
             </div>
             {/* ================================================ */}
             <div className="  text-zinc-400 font-tommy mt-7">
-              <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-[500]  text-zinc-500/90 mb-3">
+              <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-tommy_bold  text-zinc-500/90 mb-3">
                 <strong>FOUNDER AND CTO OF Z2LIVE (ACQUIRED BY KING)</strong>
               </h5>
               <div className="text-base sm:text-[18px] lg:text-[22px]">
@@ -67,7 +67,7 @@ const Founder = () => {
             </div>
             {/* =========================================== */}
             <div className="  text-zinc-400 font-tommy mt-7">
-              <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-[500]  text-zinc-500/90 mb-3">
+              <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-tommy_bold  text-zinc-500/90 mb-3">
                 <strong>FOUNDER AND CEO/CTO OF APPURI (ACQUIRED BY DOCUSIGN)</strong>
               </h5>
               <div className="text-base sm:text-[18px] lg:text-[22px]">
@@ -80,7 +80,7 @@ const Founder = () => {
             </div>
             {/* ================================================ */}
             <div className="  text-zinc-400 font-tommy mt-7">
-              <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-[500]  text-zinc-500/90 mb-3">
+              <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-tommy_bold  text-zinc-500/90 mb-3">
                 <strong>MICROSOFT VETERAN</strong>
               </h5>
               <div className="text-base sm:text-[18px] lg:text-[22px]">
@@ -115,7 +115,7 @@ const Founder = () => {
                 </div>
               </div>
               <div className="  text-zinc-400 font-tommy mt-5">
-                <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-[500]  text-zinc-500/90 mb-3">
+                <h5 className="text-[17px] sm:text-[19px] lg:text-[23px] uppercase leading-none font-tommy_bold  text-zinc-500/90 mb-3">
                   <strong>FORMER CEO OF MTPROJECTS</strong>
                 </h5>
                 <div className="text-base sm:text-[18px] lg:text-[22px]">
@@ -127,7 +127,7 @@ const Founder = () => {
               </div>
               <div className="mb-10"></div>
             </div>
-            <div className="w-3/4  xl:w-full h-full -mt-1 order-1 xl:order-2">
+            <div className=" w-full lg:w-3/4  xl:w-full h-full -mt-1 order-1 xl:order-2">
               <img className="w-full h-full object-cover object-center" src={founderImg2} alt="" />
             </div>
           </div>
