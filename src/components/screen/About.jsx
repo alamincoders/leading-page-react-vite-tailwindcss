@@ -8,29 +8,36 @@ const About = () => {
   return (
     <section id="about" className="py-24 md:py-44 lg:py-72 bg-zinc-100/70">
       <div className="container_fluid">
-        <div className="space-y-10 md:text-justify">
+        <div className="space-y-10">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-16">
             <div className="order-2 xl:order-1">
               <h2 className="text-[24px] sm:text-[32px] lg:text-[50px] font-tommy_bold text-black/90 leading-tight">
                 Preserving <br /> Your AI Identity
               </h2>
               <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400">
-                <p className="my-5 leading-tight">
+                <p className="my-5 leading-tight font-tommy_light font-medium md:text-justify">
                   Your AI identity is a reflection of who you are in the digital world. Here&apos;s how we assist you
                 </p>{" "}
-                <p className="my-5 leading-tight">
-                  <span className="font-bold font-tommy_bold !text-zinc-500/80">1. Tailored AI Avatars:</span> We craft customised AI avatars that
-                  faithfully mirror your appearance, personality, and style. These avatars are designed to capture the essence of your identity.
+                <p className="my-5 leading-tight md:text-justify">
+                  <span className="font-tommy_bold !text-zinc-500/80">1. Tailored AI Avatars:</span>{" "}
+                  <span className="font-tommy_light font-medium">
+                    We craft customised AI avatars that faithfully mirror your appearance, personality, and style. These avatars are designed to
+                    capture the essence of your identity.
+                  </span>
                 </p>{" "}
-                <p className="my-5 leading-tight">
-                  <span className="font-bold font-tommy_bold !text-zinc-500/80">2. Voice Preservation:</span> Your unique voice is a crucial part of
-                  your digital identity. We use advanced technology to replicate and securely store your online voice, ensuring it remains exclusively
-                  yours.
+                <p className="my-5 leading-tight  md:text-justify">
+                  <span className="font-tommy_bold !text-zinc-500/80">2. Voice Preservation:</span>{" "}
+                  <span className="font-tommy_light font-medium">
+                    Your unique voice is a crucial part of your digital identity. We use advanced technology to replicate and securely store your
+                    online voice, ensuring it remains exclusively yours.
+                  </span>
                 </p>
-                <p className="my-5 leading-tight">
-                  <span className="font-bold font-tommy_bold !text-zinc-500/80">3. Cutting-Edge Vault:</span> Our state-of-the-art vault is where we
-                  secure your AI identity. It&apos;s impenetrable to un-authorized access or tampering. Your digital likeness is stored in a single,
-                  secure location
+                <p className="my-5 leading-tight  md:text-justify">
+                  <span className="font-tommy_bold !text-zinc-500/80">3. Cutting-Edge Vault:</span>{" "}
+                  <span className="font-tommy_light font-medium">
+                    Our state-of-the-art vault is where we secure your AI identity. It&apos;s impenetrable to un-authorized access or tampering. Your
+                    digital likeness is stored in a single, secure location
+                  </span>
                 </p>
               </div>
             </div>
@@ -49,7 +56,7 @@ const About = () => {
                 Your Digital Guardian
               </h2>
               <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
-                <p className="my-5 leading-tight">
+                <p className="my-5 leading-tight font-tommy_light font-medium md:text-justify">
                   At The Artist Agency, our unwavering commitment is to be the vigilant guardian of your AI identity. We understand the value of your
                   digital likeness and the importance of keeping it under your control.
                 </p>{" "}
@@ -64,7 +71,7 @@ const About = () => {
                   Protection <br /> Against Impersonation
                 </h2>
                 <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
-                  <p className="my-5 leading-tight">
+                  <p className="my-5 leading-tight font-tommy_light font-medium md:text-justify">
                     In an era of increasing deepfake and AI impersonation threats, we&apos;re your shield. If anyone attempts to use a fake AI avatar
                     of you, our up-to-date AI programming and the avatars we&apos;ve crafted will swiftly expose the deception
                   </p>
@@ -76,7 +83,7 @@ const About = () => {
                   Legacy, Your Ownership
                 </h2>
                 <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
-                  <p className="my-5 leading-tight">
+                  <p className="my-5 leading-tight font-tommy_light font-medium md:text-justify">
                     In an era of increasing deepfake and AI impersonation threats, we&apos;re your shield. If anyone attempts to use a fake AI avatar
                     of you, our up-to-date AI programming and the avatars we&apos;ve crafted will swiftly expose the deception
                   </p>
@@ -99,7 +106,7 @@ const About = () => {
                   with Confidence
                 </h2>
                 <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
-                  <p className="my-5 leading-tight">
+                  <p className="my-5 leading-tight font-tommy_light font-medium md:text-justify">
                     When you land a job that requires the use of your digital likeness, we&apos;re your partners. The Artist Agency collaborates with
                     you to create the required performance, ensuring your digital identity is portrayed accurately and professionally.
                   </p>{" "}
@@ -111,7 +118,7 @@ const About = () => {
                   Total Protection
                 </h2>
                 <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
-                  <p className="my-5 leading-tight">
+                  <p className="my-5 leading-tight font-tommy_light font-medium md:text-justify">
                     At The Artist Agency, your AI identity is stored in one secure vault, exclusively for you. We don&apos;t own or control it.
                     It&apos;s your property, and our mission is to keep it safe
                   </p>{" "}
@@ -123,7 +130,7 @@ const About = () => {
                   Your Digital Identity
                 </h2>
                 <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
-                  <p className="my-5 leading-tight">
+                  <p className="my-5 leading-tight font-tommy_light font-medium md:text-justify">
                     Embrace the future with confidence. Choose The Artist Agency as your ally in the digital realm. Contact us today to discover how
                     we can help you preserve and protect your AI identity like never before
                   </p>{" "}
@@ -140,7 +147,7 @@ const About = () => {
                   Legacy, Secured
                 </h2>
                 <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
-                  <p className="my-5 leading-tight">
+                  <p className="my-5 leading-tight font-tommy_light font-medium md:text-justify">
                     Your digital identity is your legacy, and we&apos;re here to ensure it&apos;s protected for generations to come. With The Artist
                     Agency, you can trust that your AI likeness is safeguarded, allowing you to focus on what you do best – creating, entertaining,
                     and inspiring.
@@ -153,7 +160,7 @@ const About = () => {
                   Digital Revolution
                 </h2>
                 <div className="text-base sm:text-[18px] lg:text-[22px] text-zinc-400 font-tommy">
-                  <p className="my-5 leading-tight">
+                  <p className="my-5 leading-tight font-tommy_light font-medium md:text-justify">
                     Embrace the future with confidence, knowing that The Artist Agency has your back. Join us in the digital revolution and take
                     control of your AI identity. Contact us today to discover how we can preserve and protect your digital legacy like never before.
                   </p>
